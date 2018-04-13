@@ -1,11 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types'
-import { compose } from 'redux';
+import React from "react";
+import PropTypes from "prop-types"
+import { compose } from "redux";
 import { DropTarget } from "react-dnd";
 import './index.css';
-import { taskPropTypes } from '../../../tasks/propTypes';
-import DragableTask from '../../../tasks/components/tasks';
-import cn from 'classnames';
+import { taskPropTypes } from "../../../tasks/propTypes";
+import DragableTask from "../../../tasks/components/tasks";
+import cn from "classnames";
 
 function dragTagrgetComponent({ isOver, connectDropTarget, children }) {
   return connectDropTarget(

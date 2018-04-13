@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types'
-import { compose } from 'redux';
+import React, { Component } from "react";
+import PropTypes from "prop-types"
+import { compose } from "redux";
 import './App.css';
-import Header from './layout/header';
-import Content from './layout/content'
-import Modal from './layout/modal'
-import listsHOC from './board/listsHOC';
-import tasksHOC from './tasks/tasksHOC';
-import Columns from './board/components/columns';
-import TaskFrom from './tasks/components/taskForm';
-import { listPropTypes } from './board/propTypes';
-import { taskPropTypes } from './tasks/propTypes';
+import Header from "./layout/header";
+import Content from "./layout/content"
+import Modal from "./layout/modal"
+import listsHOC from "./board/listsHOC";
+import tasksHOC from "./tasks/tasksHOC";
+import Columns from "./board/components/columns";
+import TaskFrom from "./tasks/components/taskForm";
+import { listPropTypes } from "./board/propTypes";
+import { taskPropTypes } from "./tasks/propTypes";
 
 class App extends Component {
 

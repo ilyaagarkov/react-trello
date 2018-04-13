@@ -1,12 +1,12 @@
-import React from 'react';
-import PropTypes from 'prop-types'
-import { compose } from 'redux';
+import React from "react";
+import PropTypes from "prop-types"
+import { compose } from "redux";
 import { DragDropContext } from "react-dnd";
-import HTML5Backend from 'react-dnd-html5-backend';
+import HTML5Backend from "react-dnd-html5-backend";
 import './index.css';
 import { listPropTypes } from "../../propTypes";
-import { taskPropTypes } from '../../../tasks/propTypes';
-import Column from '../column'
+import { taskPropTypes } from "../../../tasks/propTypes";
+import Column from "../column"
  
 class BoardColumns extends React.Component {
 

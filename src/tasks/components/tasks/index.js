@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 import { DragSource } from "react-dnd";
 import './index.css'
-import cn from 'classnames';
+import cn from "classnames";
 
 class Task extends React.Component {
 

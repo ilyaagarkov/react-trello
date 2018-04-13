@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types"
 
 export const taskPropTypes = PropTypes.shape({
   id: PropTypes.number.isRequired,
