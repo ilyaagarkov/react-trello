@@ -1,0 +1,11 @@
+.Task {
+  padding: 15px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px ;
+  box-shadow: 0px 0px 5px rgba(0,0,0, 0.4);
+}
+
+.Task--isDragging {
+  display: none;
+}

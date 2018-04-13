@@ -1,0 +1,23 @@
+.boardColumn {
+  background-color: #e2e4e6;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.boardColumn__item{
+  margin-bottom: 5px;
+}
+
+.dragTarget {
+  height: 5px;
+  background-color: transparent;
+}
+
+.dragTarget:first-child {
+  height: 10px;
+}
+
+.dragTarget--isOver {
+  height: 40px !important;
+  background-color: gray;
+}
